@@ -28,14 +28,14 @@ public class ConnectionRunnable implements Runnable {
 				Runnable r = (Runnable) con.newInstance(socket);
 				Thread thread = new Thread(r);
 				thread.start();
-				threadHandler(thread);
+				handleThread(thread);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	private void threadHandler(Thread thread) {
+	private void handleThread(Thread thread) {
 		if (type.isAssignableFrom(CCReceiverTest.class)) {
 			Thread t = Const.getCcThread("CC");
 			if (t != null) {
