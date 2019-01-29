@@ -1,9 +1,10 @@
-package kr.co.expernet.relay.server;
+package kr.co.expernet.relay.server.connetion;
 
 import java.lang.reflect.Constructor;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import kr.co.expernet.relay.server.util.Const;
 import kr.co.expernet.relay.test.CCReceiverTest;
 import kr.co.expernet.relay.test.GCSReceiverTest;
 

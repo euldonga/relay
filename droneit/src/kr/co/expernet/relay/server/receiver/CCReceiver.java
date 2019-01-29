@@ -1,4 +1,4 @@
-package kr.co.expernet.relay.server;
+package kr.co.expernet.relay.server.receiver;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
+
+import kr.co.expernet.relay.server.util.Const;
 
 public class CCReceiver implements Runnable {
 	private BufferedReader reader;

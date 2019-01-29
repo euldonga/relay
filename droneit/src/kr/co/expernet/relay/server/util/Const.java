@@ -1,4 +1,4 @@
-package kr.co.expernet.relay.server;
+package kr.co.expernet.relay.server.util;
 
 import java.io.BufferedWriter;
 import java.util.HashMap;

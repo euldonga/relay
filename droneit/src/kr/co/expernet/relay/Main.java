@@ -1,5 +1,6 @@
-package kr.co.expernet.relay.server;
+package kr.co.expernet.relay;
 
+import kr.co.expernet.relay.server.connetion.ConnectionRunnable;
 import kr.co.expernet.relay.test.CCReceiverTest;
 import kr.co.expernet.relay.test.GCSReceiverTest;
 

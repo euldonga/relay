@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 
-import kr.co.expernet.relay.server.Const;
+import kr.co.expernet.relay.server.util.Const;
 
 public class GCSReceiverTest implements Runnable {
 	private BufferedReader reader;
